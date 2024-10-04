@@ -1,0 +1,17 @@
+ 
+  /* Styles pour le titre */
+ h1 {
+     text-align: center;
+     margin: 10px 0px 30px 0px;
+     /* Réduire l'espace entre le titre et les boutons, espacement entre le titre et les boutons */
+ }
+footer {
+    /* Styles pour le footer */
+    padding: 20px 0;
+    /* Espacement du footer par rapport au bas de la page */
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}

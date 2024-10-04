@@ -1,0 +1,26 @@
+<?php include '../header.html'; ?>
+<div class="container">
+    <h1>Ajouter un personnage</h1>
+      <form class="row g-3" action="index.php?action=ajoutPersonnage" method="POST">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+        
+        <label for="classe">Classe :</label>
+        <select id="classe" name="classe" required>
+          <option value="Guerrier">Guerrier</option>
+          <option value="Ouvrier">Ouvrier</option>
+          <option value="Explorateur">Explorateur</option>
+        </select><br><br>
+        
+        <label for="civilisation">Civilisation :</label>
+        <select id="civilisation" name="civilisation" required>
+          <option value="Norvège">Norvège</option>
+          <option value="Angleterre">Angleterre</option>
+          <option value="France">France</option>
+        </select><br><br>
+        
+        <input type="submit" value="Ajouter">
+        </form>
+  <!-- Bouton de retour à l'accueil -->
+  <a href="index.php?page=home" class="btn btn-secondary mt-3">Retour à l'accueil</a>
+  </div>
