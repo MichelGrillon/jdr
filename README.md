@@ -1,2 +1,2 @@
 # jdr
- création de personnage pour un jeu de rôle
+ création de personnages pour un jeu de rôle
