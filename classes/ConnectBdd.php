@@ -6,10 +6,10 @@ abstract class ConnectBdd
 
     public function __construct()
     {
-        define('SERVER', "michely31.mysql.db");
-        define('USER', "michely31");
-        define('PASSWORD', "Tolosa31");
-        define('BASE', "michely31");
+        define('SERVER', "#");
+        define('USER', "#");
+        define('PASSWORD', "#");
+        define('BASE', "#");
 
         try {
             $this->_connection = new PDO("mysql:host=" .
